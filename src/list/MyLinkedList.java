@@ -62,18 +62,18 @@ public class MyLinkedList {
         head = newNode;
     }
 
-    public void addLast(int value) {
-        LinkedNode newNode = new LinkedNode(value);
-        if (head == null) {
-            head = newNode;
-            return;
-        }
-        LinkedNode cur = head;
-        while (cur.next != null) {
-            cur = cur.next;
-        }
-        cur.next = newNode;
-    }
+            public void addLast(int value) {
+                LinkedNode newNode = new LinkedNode(value);
+                if (head == null) {
+                    head = newNode;
+                    return;
+                }
+                LinkedNode cur = head;
+                while (cur.next != null) {
+                    cur = cur.next;
+                }
+                cur.next = newNode;
+            }
 
     public boolean contains(int value) {
         for (LinkedNode cur = head; cur != null; cur = cur.next) {

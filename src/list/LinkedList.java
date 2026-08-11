@@ -17,7 +17,6 @@ public class LinkedList {
         this.head = null;
     }
 
-
     public int size() {
         if (head == null) {
             return 0;
