@@ -14,3 +14,4 @@ public class QueueDemo {
         // 取队首元素
         Integer peek = queue.peek();
     }
+}
